@@ -22,7 +22,7 @@ jobs:
 
       - name: Hello world action step
 
-        uses: ./ # Uses an action in the root directory
+        uses: ./github/js # Uses an action in the root directory
 
         id: hello
 
